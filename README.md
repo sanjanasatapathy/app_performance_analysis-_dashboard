@@ -51,15 +51,15 @@ This project analyzes application logs to extract insights about app performance
 ### **Installation**
 
 1.  Clone the repository:
-   ```bash
+   
    git clone https://github.com/<your-username>/app-performance-analysis-dashboard.git
    cd app-performance-analysis-dashboard
     
 2.  Install the required libraries:
-   ```bash
+   
    pip install -r requirements.txt
     
-3.  Place the log file (Copy of app\_logs.xlsx) in the project directory.
+3.  Place the log file (Copy of app\_logs.xlsx) in the project directory.gi
     
 ### **Run the Script**
 
@@ -129,7 +129,7 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 **Contributors**
 ----------------
 
-*   **\[Your Name\]** - Developer and Data Analyst
+*   **Sanjana Satapathy** - Data Analyst
     
 
 **License**
