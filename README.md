@@ -4,7 +4,7 @@
 **Project Overview**
 --------------------
 
-This project analyzes application logs to extract insights about app performance, user experience, and health. Using Python, key metrics such as response times, error rates, and usage patterns were calculated, and visualizations were created to help monitor the app's health effectivelk eflk sdf klfds kldsfk ldsfk ldfslk dsfk ldsf lksfd lkdsfkl dfslk ly. Basic anomaly detection was also implemented.
+This project analyzes application logs to extract insights about app performance, user experience, and health. Using Python, key metrics such as response times, error rates, and usage patterns were calculated, and visualizations were created to help monitor the app's health effectively. Basic anomaly detection was also implemented.
 
 **Features**
 ------------
@@ -50,13 +50,17 @@ This project analyzes application logs to extract insights about app performance
 
 ### **Installation**
 
-1.  bashCopy codegit clone https://github.com//app-performance-analysis-dashboard.gitcd app-performance-analysis-dashboard
+1.  Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/app-performance-analysis-dashboard.git
+   cd app-performance-analysis-dashboard
     
-2.  bashCopy codepip install -r requirements.txt
+2.  Install the required libraries:
+   ```bash
+   pip install -r requirements.txt
     
 3.  Place the log file (Copy of app\_logs.xlsx) in the project directory.
     
-
 ### **Run the Script**
 
 Execute the following command to calculate metrics, detect anomalies, and generate visualizations:
