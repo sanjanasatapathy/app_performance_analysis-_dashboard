@@ -4,7 +4,7 @@
 **Project Overview**
 --------------------
 
-This project analyzes application logs to extract insights about app performance, user experience, and health. Using Python, key metrics such as response times, error rates, and usage patterns were calculated, and visualizations were created to help monitor the app's health effectively. Basic anomaly detection was also implemented.
+This project analyzes application logs to extract insights about app performance, user experience, and health. Using Python, key metrics such as response times, error rates, and usage patterns were calculated, and visualizations were created to help monitor the app's health effectivelk eflk sdf klfds kldsfk ldsfk ldfslk dsfk ldsf lksfd lkdsfkl dfslk ly. Basic anomaly detection was also implemented.
 
 **Features**
 ------------
