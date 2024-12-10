@@ -52,20 +52,24 @@ This project analyzes application logs to extract insights about app performance
 
 1.  Clone the repository:
    
- ```  git clone https://github.com/sanjanasatapathy/app-performance-analysis-dashboard.git
-   cd app-performance-analysis-dashboard```
+ ```sh  
+git clone https://github.com/sanjanasatapathy/app-performance-analysis-dashboard.git
+cd app-performance-analysis-dashboard
+```
     
 2.  Install the required libraries:
-   
+```sh
    pip install -r requirements.txt
+   ```
     
-3.  Place the log file (Copy of app\_logs.xlsx) in the project directory.gi
+3.  Place the log file (Copy of app\_logs.xlsx) in the project directory. You can refer to this  [sample file](https://docs.google.com/spreadsheets/d/1iUd_HFOKm287Vd0VXyVsTNQRCkBzWBrh3co_uthaRNA/edit?gid=386998417#gid=386998417)
     
 ### **Run the Script**
 
 Execute the following command to calculate metrics, detect anomalies, and generate visualizations:
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bashCopy codepython main.py   `
+```sh
+python main.py   `
+```
 
 **Key Insights**
 ----------------
@@ -129,7 +133,8 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 **Contributors**
 ----------------
 
-*   **Sanjana Satapathy** - Data Analyst
+
+*   [Sanjana Satapathy](https://www.linkedin.com/in/sanjana-satapathy-926293228/) - Data Analyst
     
 
 **License**
