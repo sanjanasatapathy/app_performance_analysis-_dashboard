@@ -52,8 +52,8 @@ This project analyzes application logs to extract insights about app performance
 
 1.  Clone the repository:
    
-   git clone https://github.com/sanjanasatapathy/app-performance-analysis-dashboard.git
-   cd app-performance-analysis-dashboard
+ ```  git clone https://github.com/sanjanasatapathy/app-performance-analysis-dashboard.git
+   cd app-performance-analysis-dashboard```
     
 2.  Install the required libraries:
    
