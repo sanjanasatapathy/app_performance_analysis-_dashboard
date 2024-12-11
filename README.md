@@ -71,6 +71,15 @@ Execute the following command to calculate metrics, detect anomalies, and genera
 python main.py   `
 ```
 
+### *Approach Explanation*  
+1. *Performance Analysis*:     - Created Python functions to calculate key metrics such as average and P95 response times per endpoint, error rates, and peak usage periods.     - Derived user experience metrics like the percentage of requests exceeding 1 second.  
+2. *Visualization Dashboard*:     - Developed time-series plots for response time trends and bar charts for error rate patterns.     - Conducted hourly analysis for peak usage and comparison of endpoint performance.  
+3. *Anomaly Detection*:     - Implemented basic statistical methods to detect spikes in response times.     - Identified error rate anomalies and potential endpoint availability issues using grouped aggregations and thresholds.  
+4. *Code Structure*:     - Functions were modularized for reusability.     - Error handling and validations were added to manage inconsistent data.  
+5. *Documentation*:     - Added inline comments for better code readability.  
+---
+
+
 **Key Insights**
 ----------------
 
