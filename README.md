@@ -71,13 +71,32 @@ Execute the following command to calculate metrics, detect anomalies, and genera
 python main.py   `
 ```
 
-### *Approach Explanation*  
-1. *Performance Analysis*:     - Created Python functions to calculate key metrics such as average and P95 response times per endpoint, error rates, and peak usage periods.     - Derived user experience metrics like the percentage of requests exceeding 1 second.  
-2. *Visualization Dashboard*:     - Developed time-series plots for response time trends and bar charts for error rate patterns.     - Conducted hourly analysis for peak usage and comparison of endpoint performance.  
-3. *Anomaly Detection*:     - Implemented basic statistical methods to detect spikes in response times.     - Identified error rate anomalies and potential endpoint availability issues using grouped aggregations and thresholds.  
-4. *Code Structure*:     - Functions were modularized for reusability.     - Error handling and validations were added to manage inconsistent data.  
-5. *Documentation*:     - Added inline comments for better code readability.  
----
+ **Approach Explanation**  
+----------------
+1. **Performance Analysis**:     
+
+    *   Created Python functions to calculate key metrics such as average and P95 response times per endpoint, error rates, and   peak usage periods.     
+    *   Derived user experience metrics like the percentage of requests exceeding 1 second.
+
+2. **Visualization Dashboard**:     
+
+    *   Developed time-series plots for response time trends and bar charts for error rate patterns.     
+    *   Conducted hourly analysis for peak usage and comparison of endpoint performance.  
+
+3. **Anomaly Detection**:     
+
+    *   Implemented basic statistical methods to detect spikes in response times.     
+    *   Identified error rate anomalies and potential endpoint availability issues using grouped aggregations and thresholds.  
+
+4. **Code Structure**:     
+
+    *   Functions were modularized for reusability.     
+    *   Error handling and validations were added to manage inconsistent data.  
+
+5. **Documentation**:  
+
+    *   Added inline comments for better code readability.  
+
 
 
 **Key Insights**
@@ -85,28 +104,28 @@ python main.py   `
 
 ### **Metrics Summary**:
 
-*   **Response Times**:
+1.   **Response Times**:
     
-    *   Average and P95 response times highlight endpoint performance.
+     *   Average and P95 response times highlight endpoint performance.
         
-*   **Error Rates**:
+2.   **Error Rates**:
     
-    *   Most errors occurred with specific endpoints, indicating areas to optimize.
+     *   Most errors occurred with specific endpoints, indicating areas to optimize.
         
-*   **Peak Usage**:
+3.   **Peak Usage**:
     
-    *   Certain time slots had significantly higher requests, which could help in load balancing.
+     *   Certain time slots had significantly higher requests, which could help in load balancing.
         
-*   **User Experience**:
+4.   **User Experience**:
     
-    *   Around of requests exceeded 1 second.
+     *   Around of requests exceeded 1 second.
         
 
 ### **Anomalies**:
 
 *   Unusual spikes in response times were detected on .
     
-*   Significant error anomalies identified for HTTP status codes 500 and 503.
+*   Significant error anomalies identified for HTTP status codes 500 and 504.
     
 
 **Visualizations**
